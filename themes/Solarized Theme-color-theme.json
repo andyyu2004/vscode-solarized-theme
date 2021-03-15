@@ -21,52 +21,17 @@
       }
     },
     {
-      "name": "Jekyll Tags",
-      "scope": [
-        "punctuation.output.jekyll",
-        "punctuation.tag.jekyll",
-        "punctuation.frontmatter.jekyll",
-        "punctuation.output.liquid",
-        "punctuation.tag.liquid"
-      ],
-      "settings": {
-        "foreground": "#bbbbbb"
-      }
-    },
-    {
-      "name": "Jekyll Operators",
-      "scope": ["entity.name.tag.jekyll", "entity.name.tag.liquid"],
-      "settings": {
-        "foreground": "#D33682",
-        "fontStyle": "italic"
-      }
-    },
-    {
-      "name": "Jekyll Variable",
-      "scope": ["punctuation.tag.jekyll", "punctuation.tag.liquid"],
-      "settings": {
-        "foreground": "#BBBBBB"
-      }
-    },
-    {
-      "name": "Jekyll Content",
-      "scope": ["variable.other.jekyll", "variable.other.liquid"],
-      "settings": {
-        "foreground": "#BBBBBB"
-      }
-    },
-    {
-      "name": "Jekyll arguments",
-      "scope": ["support.function.with-args.jekyll"],
-      "settings": {
-        "fontStyle": "italic"
-      }
-    },
-    {
       "name": "Javascript JSDoc Symbol",
       "scope": "entity.name.type.instance.jsdoc",
       "settings": {
         "foreground": "#b58900"
+      }
+    },
+    {
+      "name": "Namespace",
+      "scope": ["namespace", "entity.name.namespace.rust"],
+      "settings": {
+        "foreground": "#6581ee"
       }
     },
     {
@@ -100,6 +65,20 @@
       }
     },
     {
+      "name": "Attribute",
+      "scope": ["meta.attribute.rust"],
+      "settings": {
+        "foreground": "#b89868"
+      }
+    },
+    {
+      "name": "Entity type",
+      "scope": ["entity.name.type.rust"],
+      "settings": {
+        "foreground": "#12b199"
+      }
+    },
+    {
       "name": "Operator, Misc",
       "scope": [
         "keyword.operator",
@@ -111,12 +90,13 @@
         "punctuation.definition.tag.html",
         "punctuation.definition.tag.begin.html",
         "punctuation.definition.tag.end.html",
+        "punctuation.brackets.attribute.rust",
         "punctuation.section.embedded",
         "keyword.other.template",
         "keyword.other.substitution"
       ],
       "settings": {
-        "foreground": "#2aa198"
+        "foreground": "#b9e9d7"
       }
     },
     {
@@ -1317,4 +1297,3 @@
     "sideBar.border": "#EEE8D52B"
   }
 }
-
