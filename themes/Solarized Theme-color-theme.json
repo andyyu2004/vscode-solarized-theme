@@ -31,7 +31,7 @@
       "name": "Namespace",
       "scope": ["namespace", "entity.name.namespace.rust"],
       "settings": {
-        "foreground": "#6581ee"
+        "foreground": "#87b4cd"
       }
     },
     {
@@ -79,9 +79,8 @@
       }
     },
     {
-      "name": "Operator, Misc",
+      "name": "Punctuation",
       "scope": [
-        "keyword.operator",
         "constant.other.color",
         "punctuation",
         "meta.tag",
@@ -96,7 +95,14 @@
         "keyword.other.substitution"
       ],
       "settings": {
-        "foreground": "#b9e9d7"
+        "foreground": "#86b1a1"
+      }
+    },
+    {
+      "name": "Operator",
+      "scope": ["keyword.operator"],
+      "settings": {
+        "foreground": "#8eafc6"
       }
     },
     {
@@ -1155,7 +1161,7 @@
     "editor.background": "#002B36",
     // "editor.foreground": "#6688cc",
     "editorWidget.background": "#00212B",
-    "editorCursor.foreground": "#b6b6b6",
+    "editorCursor.foreground": "#a2a2a2",
     "editorWhitespace.foreground": "#93A1A125",
     "editor.lineHighlightBackground": "#073642",
     "editorLineNumber.activeForeground": "#949494",
