@@ -1,0 +1,27 @@
+{
+  "name": "solarized-theme",
+  "publisher": "jenniferexong",
+  "icon": "images/icon.png",
+  "displayName": "solarized-theme",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.54.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Solarized Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Solarized Theme-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jenniferexong/vscode-solarized-theme.git"
+  }
+}
