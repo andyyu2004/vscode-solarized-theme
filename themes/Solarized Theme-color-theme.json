@@ -137,17 +137,23 @@
       }
     },
     {
+      "name": "Parameter",
+      "scope": ["variable.parameter"],
+      "settings": {
+        "foreground": "#4698b1"
+      }
+    },
+    {
       "name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
       "scope": [
         "constant.numeric",
         "constant.language",
         "support.constant",
         "constant.character",
-        "variable.parameter",
         "keyword.other.unit"
       ],
       "settings": {
-        "foreground": "#cb4b16"
+        "foreground": "#0c93fa"
       }
     },
     {
