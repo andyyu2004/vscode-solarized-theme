@@ -143,7 +143,7 @@
         "meta.block-level"
       ],
       "settings": {
-        "foreground": "#81acdf"
+        "foreground": "#268bd2"
       }
     },
     {
@@ -200,10 +200,18 @@
         "meta.use.php",
         "support.other.namespace.php",
         "markup.changed.git_gutter",
-        "entity.name.type.struct.rust"
+        "entity.name.type.struct.rust",
+        "entity.name.type.enum.rust"
       ],
       "settings": {
         "foreground": "#569cd6"
+      }
+    },
+    {
+      "name": "Rust Option",
+      "scope": ["entity.name.type.option.rust", "variable.other.enummember"],
+      "settings": {
+        "foreground": "#bf8a4a"
       }
     },
     {
@@ -214,7 +222,7 @@
         "variable.other.class.js"
       ],
       "settings": {
-        "foreground": "#dc322f"
+        "foreground": "#dc742f"
       }
     },
     {
