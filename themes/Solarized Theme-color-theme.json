@@ -143,7 +143,7 @@
         "meta.block-level"
       ],
       "settings": {
-        "foreground": "#268bd2"
+        "foreground": "#298cba"
       }
     },
     {
@@ -158,6 +158,13 @@
       "scope": ["variable.parameter"],
       "settings": {
         "foreground": "#4698b1"
+      }
+    },
+    {
+      "name": "Property",
+      "scope": ["variable.other.property"],
+      "settings": {
+        "foreground": "#bb6172"
       }
     },
     {
@@ -204,7 +211,8 @@
         "entity.name.type.enum.rust"
       ],
       "settings": {
-        "foreground": "#569cd6"
+        // "foreground": "#569cd6"
+        "foreground": "#268bd2"
       }
     },
     {
