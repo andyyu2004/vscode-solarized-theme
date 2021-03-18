@@ -120,7 +120,7 @@
       "name": "tsx Object",
       "scope": ["variable.other.property.tsx"],
       "settings": {
-        "foreground": "#b5a676"
+        "foreground": "#ac7573"
       }
     },
     {
