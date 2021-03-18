@@ -113,7 +113,24 @@
         "markup.deleted.git_gutter"
       ],
       "settings": {
-        "foreground": "#cf4b56"
+        "foreground": "#478fe8"
+      }
+    },
+    {
+      "name": "tsx Object",
+      "scope": ["variable.other.property.tsx"],
+      "settings": {
+        "foreground": "#b5a676"
+      }
+    },
+    {
+      "name": "tsx Property",
+      "scope": [
+        "variable.other.constant.object.tsx",
+        "variable.other.readwrite.alias.tsx"
+      ],
+      "settings": {
+        "foreground": "#749fc2"
       }
     },
     {
@@ -229,7 +246,14 @@
       "name": "Attributes",
       "scope": "entity.other.attribute-name",
       "settings": {
-        "foreground": "#6c71c4"
+        "foreground": "#489aa3"
+      }
+    },
+    {
+      "name": "React Module",
+      "scope": "entity.name.type.module.tsx",
+      "settings": {
+        "foreground": "#ba8659"
       }
     },
     {
