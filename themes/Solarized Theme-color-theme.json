@@ -1,5 +1,10 @@
 {
   "name": "Solarized Theme",
+  "semanticTokenColors": {
+    "enum": "#4e89d2",
+
+    "selfKeyword": "#bf6930"
+  },
   "tokenColors": [
     {
       "settings": {
@@ -212,7 +217,7 @@
       ],
       "settings": {
         // "foreground": "#569cd6"
-        "foreground": "#268bd2"
+        "foreground": "#1e84dd"
       }
     },
     {
