@@ -2,7 +2,6 @@
   "name": "Solarized Theme",
   "semanticTokenColors": {
     "enum": "#4e89d2",
-
     "selfKeyword": "#bf6930"
   },
   "tokenColors": [
@@ -66,6 +65,7 @@
       "name": "Keyword, Storage",
       "scope": ["keyword", "storage.type", "storage.modifier"],
       "settings": {
+        // "foreground": "#569cd6"
         "foreground": "#527bd2"
       }
     },
@@ -224,6 +224,13 @@
       "scope": ["entity.name.type.option.rust", "variable.other.enummember"],
       "settings": {
         "foreground": "#bf8a4a"
+      }
+    },
+    {
+      "name": "Rust constant",
+      "scope": ["variable.other.constant.rust"],
+      "settings": {
+        "foreground": "#aa6a4c"
       }
     },
     {
