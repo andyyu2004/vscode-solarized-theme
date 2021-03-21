@@ -2,7 +2,8 @@
   "name": "Solarized Theme",
   "semanticTokenColors": {
     "enum": "#4e89d2",
-    "selfKeyword": "#bf6930"
+    "selfKeyword": "#bf6930",
+    "typeParameter": "#12b199"
   },
   "tokenColors": [
     {
@@ -228,7 +229,7 @@
     },
     {
       "name": "Rust constant",
-      "scope": ["variable.other.constant.rust"],
+      "scope": ["variable.other.constant"],
       "settings": {
         "foreground": "#aa6a4c"
       }
