@@ -3,7 +3,8 @@
   "semanticTokenColors": {
     "enum": "#4e89d2",
     "selfKeyword": "#bf6930",
-    "typeParameter": "#12b199"
+    "typeParameter": "#12b199",
+    "interface": "#12b199"
   },
   "tokenColors": [
     {
