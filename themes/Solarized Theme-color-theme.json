@@ -5,7 +5,7 @@
     "selfKeyword": "#bf6930",
     "typeParameter": "#12b199",
     "interface": "#12b199",
-    "typeAlias": "#b19068",
+    "typeAlias.declaration": "#b19068",
     "namespace.declaration": "#aa6363"
   },
   "tokenColors": [
