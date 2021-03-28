@@ -6,7 +6,9 @@
     "typeParameter": "#12b199",
     "interface": "#12b199",
     "typeAlias.declaration": "#b19068",
-    "namespace.declaration": "#aa6363"
+    "namespace.declaration": "#aa6363",
+    "variable.mutable": "#859900",
+    "variable": "#839496"
   },
   "tokenColors": [
     {
@@ -76,7 +78,8 @@
         "storage.type",
         "storage.modifier",
         "variable.language.this.ts",
-        "keyword.operator.expression.typeof.ts"
+        "keyword.operator.expression.typeof.ts",
+        "variable.language.super.ts"
       ],
       "settings": {
         // "foreground": "#569cd6"
