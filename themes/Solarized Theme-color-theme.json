@@ -44,7 +44,11 @@
     },
     {
       "name": "Variable",
-      "scope": ["variable", "string constant.other.placeholder"],
+      "scope": [
+        "variable",
+        "string constant.other.placeholder",
+        "variable.other.constant.ts"
+      ],
       "settings": {
         "foreground": "#839496"
       }
@@ -67,7 +71,13 @@
     },
     {
       "name": "Keyword, Storage",
-      "scope": ["keyword", "storage.type", "storage.modifier"],
+      "scope": [
+        "keyword",
+        "storage.type",
+        "storage.modifier",
+        "variable.language.this.ts",
+        "keyword.operator.expression.typeof.ts"
+      ],
       "settings": {
         // "foreground": "#569cd6"
         "foreground": "#527bd2"
@@ -171,7 +181,7 @@
     },
     {
       "name": "Property",
-      "scope": ["variable.other.property"],
+      "scope": ["variable.other.property", ""],
       "settings": {
         "foreground": "#bb6172"
       }
@@ -232,7 +242,7 @@
     },
     {
       "name": "Rust constant",
-      "scope": ["variable.other.constant"],
+      "scope": ["variable.other.constant.rust"],
       "settings": {
         "foreground": "#aa6a4c"
       }
