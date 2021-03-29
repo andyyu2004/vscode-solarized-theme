@@ -26,7 +26,7 @@
       "name": "Pascal source",
       "scope": ["source.pascal"],
       "settings": {
-        "foreground": "#b4b4b4"
+        "foreground": "#949494"
       }
     },
     {
@@ -86,7 +86,9 @@
         "storage.modifier",
         "variable.language.this.ts",
         "keyword.operator.expression.typeof.ts",
-        "variable.language.super.ts"
+        "variable.language.super.ts",
+        "keyword.operator.expression.keyof",
+        "keyword.operator.expression.void"
       ],
       "settings": {
         // "foreground": "#569cd6"
