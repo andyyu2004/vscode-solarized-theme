@@ -7,8 +7,8 @@
     "interface": "#12b199",
     "typeAlias.declaration": "#b19068",
     "namespace.declaration": "#aa6363",
-    "variable.mutable": "#859900",
-    "variable": "#839496"
+    "variable.mutable": "#859900"
+    // "variable": "#839496"
   },
   "tokenColors": [
     {
