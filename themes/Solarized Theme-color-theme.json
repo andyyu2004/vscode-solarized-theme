@@ -23,6 +23,13 @@
       }
     },
     {
+      "name": "Pascal source",
+      "scope": ["source.pascal"],
+      "settings": {
+        "foreground": "#b4b4b4"
+      }
+    },
+    {
       "name": "Comments",
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
@@ -94,8 +101,15 @@
       }
     },
     {
+      "name": "Illegal pascal",
+      "scope": ["invalid.illegal.pascal"],
+      "settings": {
+        "foreground": "#b89868"
+      }
+    },
+    {
       "name": "Entity type",
-      "scope": ["entity.name.type.rust"],
+      "scope": ["entity.name.type.rust", "entity.name.type.pascal"],
       "settings": {
         "foreground": "#12b199"
       }
@@ -1233,7 +1247,7 @@
 
     // Editor
     "editor.background": "#002B36",
-    // "editor.foreground": "#6688cc",
+    "editor.foreground": "#b4b4b4",
     "editorWidget.background": "#00212B",
     "editorCursor.foreground": "#a2a2a2",
     "editorWhitespace.foreground": "#93A1A125",
