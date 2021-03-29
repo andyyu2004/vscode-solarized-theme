@@ -6,22 +6,17 @@
     "typeParameter": "#12b199",
     "interface": "#12b199",
     "typeAlias.declaration": "#b19068",
+    "variable.static.constant": "#bb8b50",
     "namespace.declaration": "#aa6363",
     "variable.mutable": "#859900"
     // "variable": "#839496"
   },
   "tokenColors": [
-    {
-      "settings": {
-        "activeGuide": "#ffffff55",
-        "background": "#002b36",
-        "foreground": "#839496",
-        "gutter": "#002b36",
-        "popupCss": "\nhtml {\n  background-color: #123a44;\n  color: #839496;\n}\n\na {\n  color: #268bd2;\n}\n\n.error,\n.deleted {\n  color: #dc322f;\n}\n\n.success,\n.inserted,\n.name {\n  color: #859900;\n}\n\n.warning,\n.modified {\n  color: #b58900;\n}\n\n.type {\n  color: #2aa198;\n  font-style: italic;\n}\n\n.param {\n  color: #cb4b16;\n}\n\n.current {\n  text-decoration: underline;\n}\n",
-        "selectionBorder": "#ffffff16",
-        "stackGuide": "#ffffff40"
-      }
-    },
+    // {
+    //   "settings": {
+    //     "foreground": "#839496"
+    //   }
+    // },
     {
       "name": "Pascal source",
       "scope": ["source.pascal"],
@@ -48,7 +43,7 @@
       "name": "Namespace",
       "scope": ["namespace", "entity.name.namespace.rust"],
       "settings": {
-        "foreground": "#87b4cd"
+        "foreground": "#39a6b9"
       }
     },
     {
